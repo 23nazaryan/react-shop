@@ -1,6 +1,6 @@
 {
   "name": "shop",
-  "home": "https://23nazaryan.github.io/react-shop",
+  "homepage": "https://23nazaryan.github.io/react-shop",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
