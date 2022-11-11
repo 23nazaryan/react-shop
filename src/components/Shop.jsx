@@ -10,7 +10,7 @@ function Shop() {
     const [goods, setGoods] = useState([])
     const [loading, setLoading] = useState(true)
     const [order, setOrder] = useState(() => {
-        return JSON.parse(localStorage.getItem('order'))
+        return localStorage.getItem('order') ? JSON.parse(localStorage.getItem('order')) : []
     })
     const [isBasketShow, setBasketShow] = useState(false)
     const [alertName, setAlertName] = useState('')
